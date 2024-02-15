@@ -1,0 +1,70 @@
+.marketing {
+    margin-top: 80px;
+    margin-bottom: 260px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 120px;
+}
+
+.text_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.title {
+    color: #252D35;
+    font-size: 63px;
+    font-weight: 700;
+    line-height: 75px;
+}
+
+.title::after {
+    content: url("/src/assets/Marketing/text-img.svg");
+    display: inline-block;
+    vertical-align: middle;
+
+    margin-left: 3px;
+}
+
+.title span {
+    color: #B8884B;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list p {
+    color: #252D35;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 8px;
+    position: relative;
+}
+
+.list p::before {
+    content: url("/src/assets/Marketing/text-decoration.svg");
+
+    position: absolute;
+    bottom: 4px;
+    left: -1px;
+}
+
+.button {
+    width: 288px;
+    height: 50px;
+    border: 2px solid #B8884B;
+
+    color: #B8884B;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.button img {
+    margin-left: 5px;
+}
