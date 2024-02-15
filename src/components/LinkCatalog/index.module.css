@@ -1,0 +1,87 @@
+.link_catalog {
+    margin-bottom: 260px;
+}
+
+.card_wrapper {
+    display: flex;
+    gap: 49px;
+}
+
+.card {
+    position: relative;
+    width: 740px;
+    height: 740px;
+}
+
+.card:hover .description {
+    width: 740px;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.card:hover .title {
+    color: #b8884b;
+    transition: 0.3s;
+}
+
+.card:hover .img_wrapper {
+    border: 2px solid rgb(37, 45, 53);
+    transition: 0.3s;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: rgba(241, 245, 248, 0.8);
+    backdrop-filter: blur(30px);
+
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+
+    width: 700px;
+    height: 88px;
+
+    transition: 0.3s;
+}
+
+.text_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 5px;
+}
+
+.title {
+    color: rgb(37, 45, 53);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+    transition: 0.3s;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 26px;
+}
+
+.list li {
+    color: rgb(37, 45, 53);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.img_wrapper {
+    width: 50px;
+    height: 58px;
+    border: 2px solid rgba(37, 45, 53, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
