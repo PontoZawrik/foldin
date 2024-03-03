@@ -6,7 +6,7 @@ function Header() {
         <header>
         <div className="container">
             <div className={style.top}>
-                <a href="#"><img src="/src/assets/logo.svg" alt=""/></a>
+                <a href="#"><img src="/src/assets/Header/logo.svg" alt=""/></a>
 
                 <ul className={style.top_list}>
                     <li>
@@ -28,7 +28,7 @@ function Header() {
                     </li>
                 </ul>
 
-                <a href="#"><img src="/src/assets/logo-profile.svg" alt=""/></a>
+                <a href="#"><img src="/src/assets/Header/logo-profile.svg" alt=""/></a>
             </div>
         </div>
 

@@ -63,8 +63,20 @@
     color: #B8884B;
     font-size: 16px;
     font-weight: 600;
+    transition: 0.3s;
 }
 
 .button img {
     margin-left: 5px;
+}
+
+.button:hover {
+    color: white;
+    background-color: #B8884B;
+    transition: 0.3s;
+}
+
+.button:hover img {
+    filter: brightness(100);
+    transition: 0.3s;
 }

@@ -1,0 +1,57 @@
+.statistics {
+    margin-bottom: 260px;
+    text-align: center;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 65px;
+    font-weight: bold;
+
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+
+    margin-bottom: 50px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px auto;
+}
+
+.cardTitle {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 61px;
+    font-weight: bold;
+}
+
+.span {
+    font-size: 30px;
+    font-weight: 600;
+    font-weight: bold;
+}
+
+.cardDescription {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
