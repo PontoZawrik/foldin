@@ -7,9 +7,11 @@ function Marketing() {
         <div className="container">
             <div className={style.wrapper}>
                 <div className={style.text_wrapper}>
-                    <h3 className={style.title}>
+                    
+                    <p className={style.title}>
                         <span>Раздвижные конструкции</span><br/>
-                        с высоким уровнем звукоизоляции</h3>
+                        с высоким уровнем звукоизоляции
+                    </p>
                         
     
                     <ul className={style.list}>

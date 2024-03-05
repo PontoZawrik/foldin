@@ -34,11 +34,11 @@ function LinkCatalog() {
     
                         <div className={style.description}>
                             <div className={style.text_wrapper}>
-                                <h5 className={style.title}>Раздвижные стены</h5>
+                                <h5 className={style.title}>Раздвижные перегородки</h5>
                                 <ul className={style.list}>
-                                    <li>от 18 000 ₽/м²</li>
-                                    <li>2 бренда</li>
-                                    <li>7 типов конструкций</li>
+                                    <li>от 22 000 ₽/м²</li>
+                                    <li>3 бренда</li>
+                                    <li>11 типов конструкций</li>
                                 </ul>
                             </div>
 

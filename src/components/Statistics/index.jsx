@@ -6,8 +6,10 @@ function Statistics() {
         <section className={style.statistics}>
             <div className="container">
                 <h2 className={style.title}>Разделите любое помещение на “до и после”</h2>
-                <p className={style.description}>Современные и практичные раздвижные перегородки компании ФОЛДИН не требуют перепланировки помещения, <br />
-                    получения разрешительных документов и выполнения сложных строительных работ. </p>
+                <p className={style.description}>
+                    Современные и практичные раздвижные перегородки компании ФОЛДИН не требуют перепланировки помещения, <br />
+                    получения разрешительных документов и выполнения сложных строительных работ. 
+                </p>
 
                 <div className={style.wrapper}>
                     <div className={style.card}>
