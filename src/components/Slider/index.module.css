@@ -1,12 +1,15 @@
 .slider {
     width: 1900px;
     margin: 0 auto;
+
+    margin-bottom: 100px;
 }
 
 .wrapper {
     display: flex;
     gap: 84px;
-    margin-left: 180px;
+    align-items: center;
+    margin-left: 200px;
 }
 
 .text_wrapper {
@@ -24,6 +27,7 @@
 
 .title span {
     color: #B8884B;
+    font-weight: 750;
 }
 
 .p_wrapper {
@@ -39,11 +43,6 @@
     line-height: 19px;
 }
 
-.text {
-
-
-}
-
 .button {
     width: 288px;
     height: 50px;
@@ -56,7 +55,7 @@
 }
 
 .button img {
-    margin-left: 5px;
+    margin-left: 10px;
 }
 
 .button:hover {
@@ -70,6 +69,10 @@
     transition: 0.3s;
 }
 
+
+.swiper {
+    width: 950px;
+}
 
 .swiper-slide {
     width: 220px;

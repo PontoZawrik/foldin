@@ -1,10 +1,8 @@
 import {Swiper, SwiperSlide} from 'swiper/react'
 
 import 'swiper/css'
-import 'swiper/css/pagination'
 import 'swiper/css/scrollbar';
 
-import { Pagination } from 'swiper/modules';
 import { Scrollbar } from 'swiper/modules';
 
 import style from './index.module.css'
@@ -34,7 +32,7 @@ function Slider() {
                         </p>
                     </div>
     
-                    <button className={style.button}>Перейти в раздел проектов<img src="/src/assets/Marketing/button-decoration.svg"/></button>
+                    <button className={style.button}>Перейти в раздел проектов<img src="/src/assets/Slider/button-decoration.svg"/></button>
                 </div>
 
 
@@ -44,9 +42,10 @@ function Slider() {
                 slidesPerView={'auto'}
                 spaceBetween={40}
                 scrollbar={{
-                    hide: false,
                     draggable: true,
+                    dragSize: 244,
                 }}
+                className={style.swiper}
                 >
 
                     <SwiperSlide className={style.card}>
@@ -61,80 +60,80 @@ function Slider() {
 
                     <SwiperSlide className={style.card}>
                         <a href="">
-                            <img src="/src/assets/Slider/slider_image_1.png" alt=""/>
+                            <img src="/src/assets/Slider/slider_image_2.png" alt=""/>
 
                             <div className={style.description}>
-                                <p className={style.slide_text}>Спортивные клубы</p>
+                                <p className={style.slide_text}>Детские сады</p>
                             </div>
                         </a>
                     </SwiperSlide>
 
                     <SwiperSlide className={style.card}>
                         <a href="">
-                            <img src="/src/assets/Slider/slider_image_1.png" alt=""/>
+                            <img src="/src/assets/Slider/slider_image_3.png" alt=""/>
 
                             <div className={style.description}>
-                                <p className={style.slide_text}>Спортивные клубы</p>
+                                <p className={style.slide_text}>Конференц-залы</p>
                             </div>
                         </a>
                     </SwiperSlide>
 
                     <SwiperSlide className={style.card}>
                         <a href="">
-                            <img src="/src/assets/Slider/slider_image_1.png" alt=""/>
+                            <img src="/src/assets/Slider/slider_image_4.png" alt=""/>
 
                             <div className={style.description}>
-                                <p className={style.slide_text}>Спортивные клубы</p>
+                                <p className={style.slide_text}>Рестораны</p>
                             </div>
                         </a>
                     </SwiperSlide>
 
                     <SwiperSlide className={style.card}>
                         <a href="">
-                            <img src="/src/assets/Slider/slider_image_1.png" alt=""/>
+                            <img src="/src/assets/Slider/slider_image_5.png" alt=""/>
 
                             <div className={style.description}>
-                                <p className={style.slide_text}>Спортивные клубы</p>
+                                <p className={style.slide_text}>Отели</p>
                             </div>
                         </a>
                     </SwiperSlide>
 
                     <SwiperSlide className={style.card}>
                         <a href="">
-                            <img src="/src/assets/Slider/slider_image_1.png" alt=""/>
+                            <img src="/src/assets/Slider/slider_image_6.png" alt=""/>
 
                             <div className={style.description}>
-                                <p className={style.slide_text}>Спортивные клубы</p>
+                                <p className={style.slide_text}>Офисы</p>
                             </div>
                         </a>
                     </SwiperSlide>
 
                     <SwiperSlide className={style.card}>
                         <a href="">
-                            <img src="/src/assets/Slider/slider_image_1.png" alt=""/>
+                            <img src="/src/assets/Slider/slider_image_7.png" alt=""/>
 
                             <div className={style.description}>
-                                <p className={style.slide_text}>Спортивные клубы</p>
+                                <p className={style.slide_text}>Танцевальные школы</p>
                             </div>
                         </a>
                     </SwiperSlide>
 
                     <SwiperSlide className={style.card}>
                         <a href="">
-                            <img src="/src/assets/Slider/slider_image_1.png" alt=""/>
+                            <img src="/src/assets/Slider/slider_image_8.png" alt=""/>
 
                             <div className={style.description}>
-                                <p className={style.slide_text}>Спортивные клубы</p>
+                                <p className={style.slide_text}>Школы</p>
                             </div>
                         </a>
                     </SwiperSlide>
 
                     <SwiperSlide className={style.card}>
                         <a href="">
-                            <img src="/src/assets/Slider/slider_image_1.png" alt=""/>
+                            <img src="/src/assets/Slider/slider_image_9.png" alt=""/>
 
                             <div className={style.description}>
-                                <p className={style.slide_text}>Спортивные клубы</p>
+                                <p className={style.slide_text}>Квартиры</p>
                             </div>
                         </a>
                     </SwiperSlide>

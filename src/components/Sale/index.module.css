@@ -1,0 +1,46 @@
+.sale {
+    margin-bottom: 100px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 85px;
+    padding: 50px;
+
+    background: linear-gradient(90deg, rgba(39,105,169,0.25) 0%, rgba(211,156,85,0.25) 100%);
+
+    border: 2px solid linear-gradient(90deg, rgba(39, 105, 169, 0.25) 0%, rgba(211, 156, 85, 0.25) 100%);
+}
+
+.text_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 65px;
+}
+
+.title span {
+    color: #B8884B;
+    font-weight: 750;
+}
+
+.p_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    color: rgb(37, 45, 53);
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.p_wrapper .bold {
+    font-weight: bold;
+    line-height: 20px;
+}

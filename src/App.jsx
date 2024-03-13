@@ -5,6 +5,7 @@ import Marketing from './components/Marketing'
 import LinkCatalog from './components/LinkCatalog'
 import Statistics from './components/Statistics'
 import Slider from './components/Slider'
+import Sale from './components/Sale'
 import './components/reset.css'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <LinkCatalog />
       <Statistics />
       <Slider />
+      <Sale />
     </>
   )
 }
