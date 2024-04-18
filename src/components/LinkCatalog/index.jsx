@@ -7,7 +7,7 @@ function LinkCatalog() {
         <div className="container">
             <div className={style.card_wrapper}>
 
-            <a href="">
+                <a href="">
                     <div className={style.card}>
                         <img src="/src/assets/LinkCatalog/image-1.png" alt=""/>
     

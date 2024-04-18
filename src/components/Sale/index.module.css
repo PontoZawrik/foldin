@@ -4,7 +4,7 @@
 
 .background {
     background: linear-gradient(45deg, rgba(39,105,169,0.3) 0%, rgba(211,156,85,0.3) 100%);
-    padding: 3px;
+    padding: 2px;
 }
 
 .wrapper {
@@ -105,7 +105,7 @@
 .button {
     border: 2px solid rgba(241, 245, 248, 0.3);
     box-shadow: 0px 8px 20px 0px rgba(202, 154, 84, 0.35);
-    background: linear-gradient(45.00deg, rgb(184, 136, 75),rgb(204, 156, 85) 100%);
+    background: #b8884b;
     transition: 0.3s;
 
     width: 50px;
@@ -117,8 +117,8 @@
 }
 
 .button:hover {
-    border: none;
+    border: 2px solid rgba(241, 245, 248, 0.3);
+    background: #252d35;
     box-shadow: none;
-    background: #1c242c;
     transition: 0.3s
 }

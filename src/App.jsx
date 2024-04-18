@@ -1,23 +1,22 @@
 import React from 'react'
 import './App.css'
-import Header from './components/Header'
-import Marketing from './components/Marketing'
-import LinkCatalog from './components/LinkCatalog'
-import Statistics from './components/Statistics'
-import Slider from './components/Slider'
-import Sale from './components/Sale'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Index from './Pages'
+import Catalog from './Pages/Catalog'
+import Use from './Pages/Use';
 import './components/reset.css'
 
 function App() {
 
   return (
     <>
-      <Header />
-      <Marketing />
-      <LinkCatalog />
-      <Statistics />
-      <Slider />
-      <Sale />
+      <BrowserRouter>
+        <Routes>
+          <Route path='' element={<Index />} />
+          <Route path='catalog' element={<Catalog />} />
+          <Route path='use' element={<Use />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
